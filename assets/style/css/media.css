@@ -97,46 +97,10 @@
     }
 
     .offerCard {
-        margin: 25px 0 0;
-        height: 236px;
-
-
-    }
-
-    .cardBody {
-        padding: 10px;
-        width: 230px;
-    }
-
-
-    .offerCard:hover .cardBody {
-        position: static;
-
-    }
-
-    .offerCard:active .cardBody {
-        left: 28px;
-
-    }
-
-    .offerT {
-        padding: 20px 0 0;
-        font-size: 20px;
-    }
-
-    .offerP {
-        padding: 10px 16px;
-
-    }
-
-    .offerCard:hover .cardHover {
-        display: none;
-
-    }
-
-    .offerCard:active .cardHover {
-        display: none;
-
+        position: relative;
+        margin: 28px 35px 60px;
+        height: 222px;
+        transition: all 0.2s ease-in-out;
     }
 
     /* offer end */
@@ -325,50 +289,16 @@
         line-height: 50px;
     }
 
-
-
     .offerCard {
-        margin: 45px 0 0;
-        height: 270px;
-
-
-    }
-
-    .cardBody {
-        padding: 10px;
-        width: 230px;
-    }
-
-
-    .offerCard:hover .cardBody {
-        left: 28px;
-    }
-
-    .offerCard:active .cardBody {
-        left: 28px;
+        margin: 50px 18px;
     }
 
     .offerT {
-        padding: 20px 0 0;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .offerP {
-        padding: 10px 16px;
-
-    }
-
-    .offerCard:hover .cardHover {
-        width: 90px;
-        height: 95px;
-        top: 164px;
-
-    }
-
-    .offerCard:active .cardHover {
-        width: 90px;
-        height: 95px;
-        top: 164px;
+        font-size: 15px;
     }
 
     /* offer end */
@@ -423,6 +353,10 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .cPadding {
+        padding-top: 50px;
+    }
 
     /* header start */
     .navCustom {
@@ -505,30 +439,12 @@
     }
 
     .offerCard {
-        margin: 35px 0 0;
-
+        margin: 35px 35px 53px;
     }
 
-    .cardBody {
-        padding: 30px 10px;
-    }
 
     .offerP {
-        padding: 10px 27px 0px;
-    }
-
-
-
-    .offerCard:hover .cardHover {
-        width: 88px;
-        height: 90px;
-        top: 210px;
-    }
-
-    .offerCard:active .cardHover {
-        width: 88px;
-        height: 90px;
-        top: 210px;
+        padding: 8px 23px;
     }
 
     /* offer end */
@@ -657,55 +573,26 @@
     }
 
     .offerCard {
-        margin: 45px 0 0;
-        height: 240px;
-
-
+        margin: 40px 14px 27px;
     }
 
-    .cardBody {
-        padding: 10px;
-        width: 186px;
-    }
-
-
-    .offerCard:hover .cardBody {
-        left: 28px;
-    }
-
-    .offerCard:active .cardBody {
-        left: 28px;
+    .offerCard:hover .cardHover {
+        width: 80px;
+        height: 80px;
+        transform: translate(-24px, -48px);
     }
 
     .offerT {
-        padding: 20px 0 0;
-        font-size: 18px;
+        font-size: 15px;
+        line-height: 16px;
     }
-
 
     .offerP {
-        padding: 7px 9px;
-        font-size: 14px;
-        line-height: 22px;
-
+        font-size: 13px;
+        line-height: 20px;
     }
 
 
-    .offerCard:hover .cardHover {
-        width: 85px;
-        height: 87px;
-        top: 150px;
-        border-radius: 27px 0 10px;
-
-    }
-
-
-    .offerCard:active .cardHover {
-        width: 85px;
-        height: 87px;
-        top: 150px;
-        border-radius: 27px 0 10px;
-    }
 
     /* offer end */
 
