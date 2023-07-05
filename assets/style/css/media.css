@@ -1,0 +1,762 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* common start */
+    .cPadding {
+        padding-top: 40px;
+    }
+
+    /* common end */
+
+    /* header start */
+    .navCustom {
+        padding: 20px 0;
+    }
+
+    /* nav start */
+    .cNav {
+        padding-top: 10px;
+    }
+
+
+    .cNav ul li a {
+        padding: 10px 0;
+    }
+
+    .singUpBtn {
+        margin: 10px 0;
+    }
+
+    /* nav end */
+    /* banner start */
+
+    .bannerContent {
+        padding: 25px 0px 0 0px;
+        text-align: center;
+
+    }
+
+    .bannerContent h2 {
+        padding: 0 0 10px;
+        font-size: 14px;
+    }
+
+    .bannerContent h3 {
+        padding: 0 0 5px;
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    .bannerContent p {
+        padding: 0 0 25px 0px;
+
+    }
+
+    .findPlayBtn {
+        padding: 0 0px 20px;
+    }
+
+    .findBtn {
+        width: 132px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .playBtn {
+        width: 138px;
+        height: 48px;
+    }
+
+    .playSy {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        margin: 0 0px 0 -10px;
+
+    }
+
+    .playText {
+        margin: 0 0px 0 10px;
+        font-size: 16px;
+    }
+
+    .bannnerImg {
+        padding: 20px 0 0 0;
+    }
+
+    /* header end */
+    /* offer start */
+    .pText {
+        padding: 0 0 0px 0;
+        font-size: 16px;
+    }
+
+    .serviceText {
+        font-size: 27px;
+        line-height: 50px;
+    }
+
+    .offerCard {
+        margin: 25px 0 0;
+        height: 236px;
+
+
+    }
+
+    .cardBody {
+        padding: 10px;
+        width: 230px;
+    }
+
+
+    .offerCard:hover .cardBody {
+        position: static;
+
+    }
+
+    .offerCard:active .cardBody {
+        left: 28px;
+
+    }
+
+    .offerT {
+        padding: 20px 0 0;
+        font-size: 20px;
+    }
+
+    .offerP {
+        padding: 10px 16px;
+
+    }
+
+    .offerCard:hover .cardHover {
+        display: none;
+
+    }
+
+    .offerCard:active .cardHover {
+        display: none;
+
+    }
+
+    /* offer end */
+    /* destination start */
+    .desCard {
+        margin: 30px auto 0;
+        width: 250px;
+    }
+
+    .desHeading h4 {
+        font-size: 18px;
+    }
+
+    .desHeading span {
+        font-size: 18px;
+
+    }
+
+    .desShape img {
+        display: none;
+    }
+
+    /* booking start */
+    .cBooking {
+        margin-top: 25px;
+    }
+
+    .bookingHead h5 {
+        font-size: 16px;
+    }
+
+    .bookingHead h3 {
+        margin-bottom: 0px;
+        font-size: 27px;
+        line-height: 38px;
+    }
+
+    .bookingBody {
+        margin-bottom: 15px;
+    }
+
+    .bookingCardText p {
+        padding: 0 0px 0 0;
+        font-size: 16px;
+    }
+
+    .bookingImgCard {
+        margin-right: 10px;
+        padding: 12px;
+    }
+
+    .bookingImgCard img {
+        width: 90px;
+    }
+
+    .bookingCardText h5 {
+        font-size: 16px;
+    }
+
+    .bookingCardText p {
+        font-size: 14px;
+    }
+
+    .bookingRightBg img {
+        margin: -16px 0 0 163px;
+        width: 140px;
+        height: 200px;
+    }
+
+
+    .bookingRightCard {
+        margin: 40px 0px;
+    }
+
+    .bookHover:hover .bookHoverBody {
+        width: 230px;
+        transform: translate(-221px, -128px);
+    }
+
+    /* booking end*/
+
+
+
+    /* destination end */
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* common start */
+    .cPadding {
+        padding-top: 50px;
+    }
+
+    /* common end */
+
+    /* header start */
+    .navCustom {
+        padding: 20px 0;
+    }
+
+    /* nav start */
+    .cNav {
+        padding-top: 10px;
+    }
+
+    .cNav ul li a {
+        padding: 10px 0;
+    }
+
+    .singUpBtn {
+        margin: 10px 0;
+    }
+
+    /* nav end */
+    /* banner start */
+
+    .bannerContent {
+        padding: 0px 40px 0 40px;
+        text-align: center;
+    }
+
+    .bannerContent h2 {
+        padding: 0 0 5px;
+        font-size: 16px;
+    }
+
+    .bannerContent h3 {
+        padding: 0 0 5px;
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .bannerContent p {
+        padding: 0 0 25px 0px;
+    }
+
+    .findPlayBtn {
+        padding: 0 50px 20px;
+    }
+
+    .findBtn {
+        width: 150px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .playBtn {
+        width: 150px;
+        height: 48px;
+    }
+
+    .playSy {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        margin: 0 0px 0 -10px;
+
+    }
+
+    .playText {
+        margin: 0 0px 0 10px;
+        font-size: 16px;
+    }
+
+    .bannnerImg {
+        padding: 20px 0 0 0;
+    }
+
+    .bannnerImg img {
+        padding: 0px 100px 40px;
+    }
+
+    /* header end */
+    /* offer start */
+    .pText {
+        padding: 0 0 0px 0;
+        font-size: 16px;
+    }
+
+
+    .serviceText {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+
+
+    .offerCard {
+        margin: 45px 0 0;
+        height: 270px;
+
+
+    }
+
+    .cardBody {
+        padding: 10px;
+        width: 230px;
+    }
+
+
+    .offerCard:hover .cardBody {
+        left: 28px;
+    }
+
+    .offerCard:active .cardBody {
+        left: 28px;
+    }
+
+    .offerT {
+        padding: 20px 0 0;
+        font-size: 20px;
+    }
+
+    .offerP {
+        padding: 10px 16px;
+
+    }
+
+    .offerCard:hover .cardHover {
+        width: 90px;
+        height: 95px;
+        top: 164px;
+
+    }
+
+    .offerCard:active .cardHover {
+        width: 90px;
+        height: 95px;
+        top: 164px;
+    }
+
+    /* offer end */
+    /* destination start */
+
+    .desCard {
+        margin: 35px auto 0;
+        width: 350px;
+    }
+
+    .desShape img {
+        position: absolute;
+        z-index: 1;
+        margin: -272px 0 0 388px;
+    }
+
+    /* destination end */
+    /* booking start */
+    .bookingHead h3 {
+        margin-bottom: 0px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .bookingBody {
+        margin-bottom: 15px;
+    }
+
+    .bookingCardText p {
+        padding: 0 0px 0 0;
+        font-size: 16px;
+    }
+
+    .bookingRightBg img {
+        margin: -23px 0 0 307px;
+        width: 140px;
+        height: 290px;
+    }
+
+    .bookingRightCard {
+        margin: 40px;
+    }
+
+    .bookHover:hover .bookHoverBody {
+        transform: translate(-197px, -132px);
+    }
+
+    /* booking end*/
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header start */
+    .navCustom {
+        padding: 35px 0;
+    }
+
+    /* nav start */
+    .cNav {
+        padding-top: 20px;
+    }
+
+    .cNav ul li a {
+        padding: 10px 0;
+    }
+
+    .singUpBtn {
+        margin: 10px 0;
+    }
+
+    /* nav end */
+    /* banner start */
+
+    .bannerContent {
+        padding: 20px 0 0 0;
+    }
+
+    .bannerContent h2 {
+        padding: 0 0 10px;
+        font-size: 16px;
+    }
+
+    .bannerContent h3 {
+        padding: 0 0 10px;
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .bannerContent p {
+        padding: 0 0 25px 0px;
+    }
+
+    .findBtn {
+        width: 150px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .playBtn {
+        width: 150px;
+        height: 48px;
+    }
+
+    .playSy {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        margin: 0 0px 0 -10px;
+
+    }
+
+    .playText {
+        margin: 0 0px 0 10px;
+        font-size: 16px;
+    }
+
+    .bannnerImg {
+        padding: 40px 0 0 0;
+    }
+
+    /* header end */
+    /* offer start */
+    .pText {
+        padding: 0 0 0px 0;
+        font-size: 16px;
+    }
+
+    .serviceText {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .offerCard {
+        margin: 35px 0 0;
+
+    }
+
+    .cardBody {
+        padding: 30px 10px;
+    }
+
+    .offerP {
+        padding: 10px 27px 0px;
+    }
+
+
+
+    .offerCard:hover .cardHover {
+        width: 88px;
+        height: 90px;
+        top: 210px;
+    }
+
+    .offerCard:active .cardHover {
+        width: 88px;
+        height: 90px;
+        top: 210px;
+    }
+
+    /* offer end */
+
+    /* destination start */
+
+    .desCard {
+        margin: 45px auto 0;
+        width: 200px;
+        border-radius: 12px;
+
+    }
+
+    .desCardBody {
+        padding: 16px 15px;
+    }
+
+    .desHeading {
+
+        margin-bottom: 12px;
+    }
+
+
+    .desShape img {
+        display: none;
+    }
+
+    .desHeading h4 {
+        font-size: 16px;
+    }
+
+    .desHeading span {
+        font-size: 16px;
+
+    }
+
+    .desBodyimg span {
+        font-size: 14px;
+    }
+
+    /* destination end */
+    /* booking start */
+    .bookingHead h3 {
+        margin-bottom: 0px;
+        font-size: 35px;
+        line-height: 55px;
+    }
+
+    .bookingBody {
+        margin-bottom: 15px;
+    }
+
+    .bookingCardText p {
+        padding: 0 0px 0 0;
+        font-size: 16px;
+    }
+
+    .bookingRightBg img {
+        margin: -50px 0 0 140px;
+    }
+
+    .bookingRightCard {
+        margin: 40px;
+    }
+
+
+    /* booking end*/
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* header start */
+
+    /* nav start */
+    .navCustom {
+        padding: 35px 0;
+    }
+
+    .cNav {
+        padding-top: 10px;
+    }
+
+    .cNav ul li {
+        margin-right: 29px;
+    }
+
+    /* nav end */
+    /* banner start */
+    .bannerContent {
+        padding: 65px 0 0 0;
+    }
+
+    .bannerContent h2 {
+        padding: 0 0 10px;
+        font-size: 16px;
+    }
+
+    .bannerContent h3 {
+        padding: 0 0 10px;
+        font-size: 43px;
+        line-height: 58px;
+
+    }
+
+    .bannerContent p {
+        padding: 0 0 25px 0px;
+    }
+
+    .playSy {
+        margin: 0 0px 0 0;
+    }
+
+    /* header end */
+    /* offer start */
+    .pText {
+        padding: 0 0 0px 0;
+        font-size: 16px;
+    }
+
+    .serviceText {
+        font-size: 35px;
+        line-height: 60px;
+    }
+
+    .offerCard {
+        margin: 45px 0 0;
+        height: 240px;
+
+
+    }
+
+    .cardBody {
+        padding: 10px;
+        width: 186px;
+    }
+
+
+    .offerCard:hover .cardBody {
+        left: 28px;
+    }
+
+    .offerCard:active .cardBody {
+        left: 28px;
+    }
+
+    .offerT {
+        padding: 20px 0 0;
+        font-size: 18px;
+    }
+
+
+    .offerP {
+        padding: 7px 9px;
+        font-size: 14px;
+        line-height: 22px;
+
+    }
+
+
+    .offerCard:hover .cardHover {
+        width: 85px;
+        height: 87px;
+        top: 150px;
+        border-radius: 27px 0 10px;
+
+    }
+
+
+    .offerCard:active .cardHover {
+        width: 85px;
+        height: 87px;
+        top: 150px;
+        border-radius: 27px 0 10px;
+    }
+
+    /* offer end */
+
+    /* destination start */
+    .desCard {
+        margin: 45px auto 0;
+        width: 255px;
+    }
+
+    .desShape img {
+        margin: -274px 0 0 215px;
+    }
+
+    /* destination end */
+
+    /* booking start */
+    .bookingHead h3 {
+        font-size: 41px;
+        line-height: 52px;
+    }
+
+    .bookingCardText p {
+        padding: 0 12px 0 0;
+    }
+
+    .bookingRightBg img {
+        margin: -64px 0 0 194px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .bookHover:hover .bookHoverBody {
+        width: 235px;
+        transform: translate(-176px, -121px);
+    }
+
+
+
+    /* booking end */
+
+
+
+
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+
+/* Extra-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

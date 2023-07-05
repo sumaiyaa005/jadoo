@@ -1,0 +1,8 @@
+clr- 
+blck:#212832
+blue_black: #181E4B
+blue_ash: #5E6282
+font_nav_google_sans_medium
+popins_bold
+volkhov_bold
+popins_medium
