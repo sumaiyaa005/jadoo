@@ -62,7 +62,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-bottom: 10px;
 
 }
 
@@ -281,9 +280,9 @@ header {
 }
 
 
-/* .b {
+.b {
     border: 1px solid red;
-} */
+}
 
 .offerCard {
     position: relative;
@@ -683,3 +682,182 @@ header {
 }
 
 /* booking end */
+
+
+/* partnerstart */
+.partner {}
+
+.partnerImg {
+    margin: 0 auto;
+    width: 200px;
+    height: 62px;
+    padding: 0 15px;
+
+}
+
+.partnerImg img {
+    width: 100%;
+
+}
+
+.partnerImg:hover {
+    background: #FFFFFF;
+    box-shadow: 1px 9px 6px rgba(105, 104, 104, 0.13);
+    border-radius: 10px;
+}
+
+/* partnerend */
+
+/* subscribe start */
+
+.subscribe {
+    margin: 30px 0 0;
+}
+
+.subBg {
+    padding: 70px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(223, 215, 249, 0.199);
+    border-radius: 129px 20px 20px 20px;
+    z-index: 2;
+}
+
+.subSend {
+    position: absolute;
+    top: 0;
+    transform: translate(1px, -7px);
+    right: 0;
+
+}
+
+.subSend img {
+    width: 70px;
+}
+
+.subBg2 {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+.subBg1 {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+
+}
+
+.subBg2 img {
+    height: 270px;
+
+}
+
+.subH2 {
+
+    font-size: 33px;
+    line-height: 46px;
+    text-align: center;
+    color: #5E6282;
+    padding: 0px 0px 75px 0;
+
+}
+
+.subFromCard {}
+
+.mailIcon {
+    position: absolute;
+    width: 17px;
+    left: 0;
+    bottom: 0;
+    transform: translate(8px, 41px);
+    z-index: 1;
+    margin: 5px;
+}
+
+
+
+.subForm {
+    position: relative;
+    z-index: 2;
+}
+
+.subEmail {
+    position: absolute;
+    padding: 0 40px;
+    height: 60px;
+
+}
+
+.orangeBtn {
+    width: 180px;
+    height: 60px;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* subscribe end*/
+
+/* footer start */
+footer {}
+
+
+.footP {
+    font-size: 13px;
+    color: #5E6282;
+
+}
+
+.footerLink {}
+
+.footerLink h2 {
+    color: #080809;
+    font-size: 18px;
+    padding: 0 0 10px;
+
+
+
+}
+
+.footerLink ul {
+    padding: 0;
+}
+
+.footerLink ul li {
+    list-style: none;
+    padding: 0 0 10px;
+}
+
+.footerLink ul li a {
+    text-decoration: none;
+    color: #5E6282;
+
+
+}
+
+.discoverT {
+    padding: 0 0 5px;
+    font-size: 20px;
+    color: #5E6282;
+
+}
+
+.reserved {
+    padding: 40px 0 20px;
+    text-align: center;
+    color: #5E6282;
+    font-size: 14px;
+
+}
+
+.reserved a {
+    text-decoration: none;
+    color: #5E6282;
+
+}
+
+/* footer end */

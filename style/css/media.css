@@ -172,7 +172,7 @@
 
 
     .bookingRightCard {
-        margin: 40px 0px;
+        margin: 40px 0px 10px;
     }
 
     .bookHover:hover .bookHoverBody {
@@ -181,10 +181,72 @@
     }
 
     /* booking end*/
-
-
-
     /* destination end */
+
+    /* partner start */
+    .partnerImg {
+        width: 92px;
+        height: 38px;
+    }
+
+    /* partner end */
+    /* subcribe start */
+    .subscribe {
+        margin: 0px 0 0;
+    }
+
+    .subBg {
+        padding: 45px 25px;
+        border-radius: 20px;
+
+    }
+
+    .subSend img {
+        width: 50px;
+    }
+
+    .subH2 {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0px 0px 16px 0;
+    }
+
+    .subBg1 {
+        display: none;
+    }
+
+    .subBg2 {
+        display: none;
+    }
+
+    .subEmail {
+        height: 45px;
+    }
+
+    .orangeBtn {
+        width: 118px;
+        height: 45px;
+        margin-top: 42px;
+
+    }
+
+    /* subcribe end */
+    /* footer start */
+    .footerLink {
+        margin-top: 10px;
+    }
+
+    .footerLink ul li {
+        padding: 0 0 5px;
+    }
+
+    .reserved {
+        padding: 20px 0;
+    }
+
+    .fT {
+        margin-top: 40px;
+    }
 
 
 }
@@ -339,7 +401,7 @@
     }
 
     .bookingRightCard {
-        margin: 40px;
+        margin: 40px 40px 10px;
     }
 
     .bookHover:hover .bookHoverBody {
@@ -347,7 +409,58 @@
     }
 
     /* booking end*/
+    /* parter start */
+    .partner {
+        /* margin: 0px 143px; */
 
+    }
+
+    .partnerImg {
+        width: 108px;
+        height: 46px;
+        padding: 0 0px;
+        margin: 10px auto;
+    }
+
+    /* parter end */
+    /* subcribe start */
+    .subscribe {
+        margin: 0px 0 0;
+    }
+
+    .subH2 {
+        font-size: 22px;
+        line-height: 35px;
+        padding: 0px 0px 30px 0;
+    }
+
+    .subBg1 {
+        transform: translate(0px, -44px);
+    }
+
+    .subBg2 {
+        transform: translate(1px, -23px);
+    }
+
+    .subEmail {
+        height: 45px;
+    }
+
+    .orangeBtn {
+        width: 118px;
+        height: 45px;
+    }
+
+    /* subcribe end */
+
+    /* footer start */
+    .footerLink {
+        margin-top: 30px;
+    }
+
+    .footerLink ul li {
+        padding: 0 0 5px;
+    }
 
 }
 
@@ -510,9 +623,48 @@
         margin: 40px;
     }
 
-
     /* booking end*/
 
+    /* parter start */
+    .partner {}
+
+    .partnerImg {
+        width: 120px;
+        height: 46px;
+        padding: 0 5px;
+    }
+
+    /* parter end */
+
+    /* subcribe start */
+    .subH2 {
+        font-size: 24px;
+        line-height: 35px;
+        padding: 0px 0px 35px 0;
+    }
+
+    .subBg1 {
+        transform: translate(0px, -33px);
+    }
+
+    .subEmail {
+        height: 52px;
+    }
+
+    .orangeBtn {
+        width: 145px;
+        height: 52px;
+    }
+
+    /* subcribe end */
+    /* footer start */
+    .footerLink {
+        margin-top: 30px;
+    }
+
+    .footerLink ul li {
+        padding: 0 0 5px;
+    }
 
 }
 
@@ -629,13 +781,29 @@
         transform: translate(-176px, -121px);
     }
 
-
-
     /* booking end */
 
 
+    /* parter start */
+    .partner {}
 
+    .partnerImg {
+        width: 168px;
+        height: 46px;
+    }
 
+    /* parter end */
+
+    /* subcription start */
+    .subBg {
+        padding: 45px;
+    }
+
+    .subH2 {
+        font-size: 28px;
+        padding: 0px 0px 40px 0;
+
+    }
 
 
 }
