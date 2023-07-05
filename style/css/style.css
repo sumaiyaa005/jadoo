@@ -1,32 +1,32 @@
 /* font start */
 @font-face {
     font-family: noto_sans_medium;
-    src: url(/assets/font/noto_sans/noto_sans_medium.ttf);
+    src: url(../../font/noto_sans/noto_sans_medium.ttf);
 }
 
 @font-face {
     font-family: noto_sans_regular;
-    src: url(/assets/font/noto_sans/noto_sans_regular.ttf);
+    src: url(../../font/noto_sans/noto_sans_regular.ttf);
 }
 
 @font-face {
     font-family: poppins_bold;
-    src: url(/assets/font/poppins/poppins_bold.ttf);
+    src: url(../../font/poppins/poppins_bold.ttf);
 }
 
 @font-face {
     font-family: poppins_medium;
-    src: url(/assets/font/poppins/poppins_medium.ttf);
+    src: url(../../font/poppins/poppins_medium.ttf);
 }
 
 @font-face {
     font-family: volkhov_regular;
-    src: url(/assets/font/volkhov/volkhov_regular.ttf);
+    src: url(../../font/volkhov/volkhov_regular.ttf);
 }
 
 @font-face {
     font-family: volkhov_bold;
-    src: url(/assets/font/volkhov/volkhov_bold.ttf);
+    src: url(../../font/volkhov/volkhov_bold.ttf);
 }
 
 
@@ -58,7 +58,7 @@ body {
 
 /* header start */
 header {
-    background-image: url(/assets/images/header/banner.jpg);
+    background-image: url(../../images/header/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
