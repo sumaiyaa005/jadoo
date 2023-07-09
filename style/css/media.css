@@ -42,13 +42,13 @@
     }
 
     .bannerContent h3 {
-        padding: 0 0 5px;
-        font-size: 26px;
+        padding: 0 0 15px;
+        font-size: 27px;
         line-height: 42px;
     }
 
     .bannerContent p {
-        padding: 0 0 25px 0px;
+        padding: 0 0px 25px;
 
     }
 
@@ -57,15 +57,15 @@
     }
 
     .findBtn {
-        width: 132px;
-        height: 48px;
-        font-size: 16px;
+        height: 50px;
     }
 
     .playBtn {
-        width: 138px;
-        height: 48px;
+        height: 50px;
+        padding: 20px 0 0;
     }
+
+
 
     .playSy {
         width: 30px;
@@ -92,22 +92,28 @@
     }
 
     .serviceText {
-        font-size: 27px;
-        line-height: 50px;
+        font-size: 26px;
+        line-height: 40px;
     }
 
     .offerCard {
-        position: relative;
-        margin: 28px 35px 60px;
+        margin: 16px 35px 18px;
         height: 222px;
-        transition: all 0.2s ease-in-out;
+    }
+
+    .offerCard:hover .cardHover {
+        display: none;
     }
 
     /* offer end */
     /* destination start */
     .desCard {
         margin: 30px auto 0;
-        width: 250px;
+    }
+
+    .bookingHead {
+        margin-bottom: 32px;
+        text-align: center;
     }
 
     .desHeading h4 {
@@ -182,8 +188,64 @@
 
     /* booking end*/
     /* destination end */
+    /* testimonial start*/
+    .testText {
+        text-align: center;
+    }
+
+    .testText h5 {
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+
+    .testText h3 {
+        padding: 0;
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .fCard {
+        margin: 20px 0 0;
+    }
+
+    .testImg {
+        transform: translate(96px, 3px);
+    }
+
+    .testCardB {
+        margin: 40px 0px;
+        padding: 35px 24px 29px;
+    }
+
+    .testCardB h5 {
+        line-height: 22px;
+
+    }
+
+
+    .sCard {
+        display: none;
+    }
+
+
+    .slick-arrow {}
+
+    .slick-arrow.fa-angle-left {
+        transform: translate(0, 150px)rotate(0deg);
+    }
+
+    .slick-arrow.fa-angle-right {
+        transform: translate(0px, 150px)rotate(0deg);
+
+    }
+
+
+    /* testimonial end */
 
     /* partner start */
+
+
     .partnerImg {
         width: 92px;
         height: 38px;
@@ -192,7 +254,7 @@
     /* partner end */
     /* subcribe start */
     .subscribe {
-        margin: 0px 0 0;
+        margin-top: 25px;
     }
 
     .subBg {
@@ -201,14 +263,19 @@
 
     }
 
+    .subSend {
+        transform: translate(3px, -14px);
+
+    }
+
     .subSend img {
-        width: 50px;
+        width: 45px;
     }
 
     .subH2 {
-        font-size: 18px;
-        line-height: 30px;
-        padding: 0px 0px 16px 0;
+        font-size: 16px;
+        line-height: 26px;
+        padding: 14px 0px 14px 0;
     }
 
     .subBg1 {
@@ -223,15 +290,24 @@
         height: 45px;
     }
 
+    .mailIcon {
+        transform: translate(8px, 36px);
+    }
+
     .orangeBtn {
         width: 118px;
         height: 45px;
-        margin-top: 42px;
+        margin-top: 55px;
+        font-size: 14px;
 
     }
 
     /* subcribe end */
     /* footer start */
+    footer {
+        margin-top: 25px;
+    }
+
     .footerLink {
         margin-top: 10px;
     }
@@ -368,7 +444,6 @@
 
     .desCard {
         margin: 35px auto 0;
-        width: 350px;
     }
 
     .desShape img {
@@ -409,6 +484,37 @@
     }
 
     /* booking end*/
+    /* testimonial start */
+    .testImg {
+        transform: translate(4px, 3px);
+    }
+
+    .testCardB {
+        margin: 35px 35px;
+    }
+
+    .sCard {
+        width: 400px;
+        padding: 50px 80px 0;
+        transform: translate(105px, -252px);
+    }
+
+    .slick-dots {
+        transform: translate(-104px, 10px);
+    }
+
+    .slick-dots li button:before {
+        font-size: 10px;
+    }
+
+    .slick-arrow {
+        display: none !important;
+
+    }
+
+    /* testimonial end */
+
+
     /* parter start */
     .partner {
         /* margin: 0px 143px; */
@@ -541,6 +647,11 @@
 
     /* header end */
     /* offer start */
+
+    /* .plusShape img {
+        display: none;
+    } */
+
     .pText {
         padding: 0 0 0px 0;
         font-size: 16px;
@@ -566,7 +677,6 @@
 
     .desCard {
         margin: 45px auto 0;
-        width: 200px;
         border-radius: 12px;
 
     }
@@ -624,6 +734,43 @@
     }
 
     /* booking end*/
+
+    /* subcription start */
+
+    .testimonial {
+        min-height: 485px;
+
+    }
+
+    .testText h3 {
+        font-size: 35px;
+    }
+
+    .sCard {
+        transform: translate(176px, -252px);
+    }
+
+    .slick-arrow.fa-angle-right {
+        transform: translate(-56px, 200px)rotate(90deg);
+    }
+
+
+    .slick-dots {
+        transform: translate(0, 0);
+    }
+
+    .slick-dots li button:before {
+        font-size: 10px;
+    }
+
+    .slick-arrow {
+        display: none !important;
+
+    }
+
+
+
+    /* subcription end */
 
     /* parter start */
     .partner {}
@@ -714,6 +861,10 @@
 
     /* header end */
     /* offer start */
+    /* .plusShape img {
+        transform: translate(792px, -87px);
+    } */
+
     .pText {
         padding: 0 0 0px 0;
         font-size: 16px;
@@ -751,7 +902,6 @@
     /* destination start */
     .desCard {
         margin: 45px auto 0;
-        width: 255px;
     }
 
     .desShape img {
@@ -782,6 +932,45 @@
     }
 
     /* booking end */
+
+    /* testimonial  start*/
+    .testimonial {
+        min-height: 318px;
+    }
+
+    .testText h3 {
+        padding: 0 36px 0 0;
+    }
+
+    .testCardB {
+        padding: 30px;
+        margin: 34px 55px;
+
+    }
+
+    .sCard {
+        width: 330px;
+        transform: translate(164px, -247px);
+    }
+
+    .testImg {
+        transform: translate(21px, 3px);
+
+    }
+
+    .slick-arrow.fa-angle-left {
+        transform: translate(513px, 150px)rotate(90deg);
+    }
+
+    .slick-dots {
+        transform: translate(-687px, -68px);
+    }
+
+    .slick-dots li button:before {
+        font-size: 12px;
+    }
+
+    /* testimonial  end*/
 
 
     /* parter start */

@@ -38,7 +38,7 @@ body {
     font-family: poppins_medium;
     font-size: 16px;
     color: #5E6282;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 
 }
 
@@ -176,6 +176,7 @@ header {
 .findBtn {
     width: 190px;
     height: 60px;
+    margin: 0 auto;
     font-family: noto_sans_medium;
     font-size: 18px;
     line-height: 23px;
@@ -252,15 +253,17 @@ header {
 /* banner end */
 /* header end */
 /* offer start */
-.offer {
-    /* background-image: url(../../images/service_bg_old.jpg); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow-x: hidden;
+.offer {}
 
-}
+/* .plusShape {}
 
-.offer_bg {}
+.plusShape img {
+    position: absolute;
+    transform: translate(1153px, -103px);
+    z-index: 1;
+    background-color: #8A79DF;
+
+} */
 
 .pText {
     padding: 0 0 10px 0;
@@ -294,7 +297,7 @@ header {
 .cardBody {
     position: absolute;
     padding: 20px;
-    background-color: #FFFFFF;
+    background-color: transparent;
     overflow: hidden;
     z-index: 2;
 
@@ -368,13 +371,11 @@ header {
 .desCard {
     position: relative;
     margin: 60px auto 0;
-    width: 365px;
     background-color: #FFFFFF;
     filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
     border-radius: 24px;
     overflow: hidden;
     z-index: 2;
-    /* border: 1px solid green; */
 }
 
 .desImg {}
@@ -647,10 +648,7 @@ header {
 
 
 /* testimonial start */
-.testimonial {
-    background-color: #F1A501;
-    height: 700px;
-}
+.testimonial {}
 
 .testText {
     padding: 30px 0 0 0;
@@ -681,60 +679,53 @@ header {
 
 .testImg {
     position: absolute;
-    width: 70px;
-    height: 70px;
     left: 0;
-    transform: translate(6px, 6px);
+    transform: translate(56px, 3px);
     z-index: 5;
 }
 
 .testCardB {
-    width: 500px;
-    margin: 35px 30px;
-    padding: 40px;
+    margin: 35px 90px;
+    padding: 35px;
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 1.5rem;
-    /* box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481); */
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
 .testCardB p {
-    line-height: 30px;
     color: #5E6282;
-
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
 }
 
 
 .testCardB h5 {
-    padding: 20px 0 0;
+    padding: 15px 0 0;
     font-size: 18px;
     color: #5E6282;
 }
 
 
-.slick-dotted.slick-slider {
-    margin-bottom: 30px;
-}
-
 .sCard {
     position: absolute;
-    /* border: 1px solid blue; */
+    width: 456px;
+    height: 245px;
+    padding: 50px 0 0;
+    margin: 0;
     border: 1px solid rgba(0, 0, 0, 0.125);
     filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
     border-radius: 10px;
-    background-clip: border-box;
     z-index: 1;
-    width: 450px;
-    transform: translate(112px, -234px);
-    padding: 40px 0 0;
-    margin: 0;
-    height: 247px;
+    transform: translate(208px, -252px);
 }
 
 .secondSliderC {
-    padding: 30px;
+    padding: 0px 30px;
 
 }
 
@@ -745,8 +736,21 @@ header {
 
 }
 
-.slick-dots {
+.secondSliderC p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
 
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
     transform: translate(-942px, -80px);
 }
 
@@ -771,46 +775,32 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-
-
-}
-
-.slick-prev {
-    right: 0;
-}
-
-.slick-next {
-    left: 0;
-}
-
-
-.slick-prev,
-.slick-next {
-    font-size: 0;
-    line-height: 0;
-    position: absolute;
-    top: 50%;
-    display: block;
+    background-color: transparent;
+    color: #BCB7C2;
+    border: none;
     width: 20px;
     height: 20px;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    cursor: pointer;
-    color: black;
-    border: none;
-    outline: none;
 }
 
+.slick-arrow:active {
+    color: #080809;
+}
+
+
+.slick-arrow.fa-angle-left {
+    transform: translate(723px, 150px)rotate(90deg);
+}
+
+.slick-arrow.fa-angle-right {
+    transform: translate(0px, 200px)rotate(90deg);
+
+}
 
 /* testimonial end */
 
 /* partnerstart */
 .partner {
-    background-color: #8A79DF;
+    /* background-color: #8A79DF; */
 }
 
 /* partnerend */
