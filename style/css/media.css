@@ -210,11 +210,11 @@
     }
 
     .testImg {
-        transform: translate(96px, 3px);
+        display: none;
     }
 
     .testCardB {
-        margin: 40px 0px;
+        margin: 0px 0px;
         padding: 35px 24px 29px;
     }
 
@@ -232,12 +232,11 @@
     .slick-arrow {}
 
     .slick-arrow.fa-angle-left {
-        transform: translate(0, 150px)rotate(0deg);
+        transform: translate(0, 118px)rotate(0deg)
     }
 
     .slick-arrow.fa-angle-right {
-        transform: translate(0px, 150px)rotate(0deg);
-
+        transform: translate(0, 118px)rotate(0deg)
     }
 
 
@@ -245,20 +244,24 @@
 
     /* partner start */
 
-
     .partnerImg {
-        width: 92px;
-        height: 38px;
+        padding: 4px;
     }
+
+    .partnerImg img {
+        height: 35px;
+
+    }
+
 
     /* partner end */
     /* subcribe start */
     .subscribe {
-        margin-top: 25px;
+        margin-top: 0px;
     }
 
     .subBg {
-        padding: 45px 25px;
+        padding: 30px 25px;
         border-radius: 20px;
 
     }
@@ -269,7 +272,7 @@
     }
 
     .subSend img {
-        width: 45px;
+        width: 35px;
     }
 
     .subH2 {
@@ -296,7 +299,7 @@
 
     .orangeBtn {
         width: 118px;
-        height: 45px;
+        height: 40px;
         margin-top: 55px;
         font-size: 14px;
 
@@ -332,7 +335,7 @@
 
     /* common start */
     .cPadding {
-        padding-top: 50px;
+        padding-top: 40px;
     }
 
     /* common end */
@@ -383,14 +386,13 @@
     }
 
     .findBtn {
-        width: 150px;
         height: 48px;
         font-size: 16px;
     }
 
     .playBtn {
-        width: 150px;
         height: 48px;
+        margin-top: 15px;
     }
 
     .playSy {
@@ -423,12 +425,12 @@
 
 
     .serviceText {
-        font-size: 35px;
-        line-height: 50px;
+        font-size: 30px;
+        line-height: 48px;
     }
 
     .offerCard {
-        margin: 50px 18px;
+        margin: 20px 18px;
     }
 
     .offerT {
@@ -442,26 +444,36 @@
     /* offer end */
     /* destination start */
 
+    .destinetion {
+        margin-top: 25px;
+    }
+
     .desCard {
-        margin: 35px auto 0;
+        margin: 35px 95px;
     }
 
     .desShape img {
-        position: absolute;
-        z-index: 1;
-        margin: -272px 0 0 388px;
+        margin: -337px 0 0 388px
     }
 
     /* destination end */
     /* booking start */
+    .cBooking {
+        margin-top: 25px;
+    }
+
+    .bookingHead {
+        text-align: center;
+    }
+
     .bookingHead h3 {
         margin-bottom: 0px;
-        font-size: 35px;
-        line-height: 50px;
+        font-size: 30px;
+        line-height: 48px;
     }
 
     .bookingBody {
-        margin-bottom: 15px;
+        margin: 22px 0;
     }
 
     .bookingCardText p {
@@ -485,8 +497,25 @@
 
     /* booking end*/
     /* testimonial start */
+    .testText {
+        text-align: center;
+        padding: 25px 0 0 0;
+
+    }
+
+    .testText h5 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .testText h3 {
+        padding: 0 0px 0 0;
+        font-size: 30px;
+        line-height: 48px;
+    }
+
     .testImg {
-        transform: translate(4px, 3px);
+        transform: translate(4px, 16px);
     }
 
     .testCardB {
@@ -495,12 +524,13 @@
 
     .sCard {
         width: 400px;
-        padding: 50px 80px 0;
+        padding: 50px 26px 0;
         transform: translate(105px, -252px);
     }
 
     .slick-dots {
-        transform: translate(-104px, 10px);
+        /* transform: translate(-104px, 10px); */
+        display: none;
     }
 
     .slick-dots li button:before {
@@ -512,6 +542,7 @@
 
     }
 
+
     /* testimonial end */
 
 
@@ -521,17 +552,24 @@
 
     }
 
-    .partnerImg {
-        width: 108px;
-        height: 46px;
-        padding: 0 0px;
-        margin: 10px auto;
+    .partnerImg img {
+        height: 40px;
+
     }
 
     /* parter end */
     /* subcribe start */
     .subscribe {
         margin: 0px 0 0;
+    }
+
+    .subSend img {
+        width: 50px;
+    }
+
+    .subBg {
+        padding: 45px;
+        border-radius: 20px 20px 20px 20px;
     }
 
     .subH2 {
@@ -541,11 +579,15 @@
     }
 
     .subBg1 {
-        transform: translate(0px, -44px);
+        transform: translate(0px, -66px);
     }
 
     .subBg2 {
         transform: translate(1px, -23px);
+    }
+
+    .mailIcon {
+        transform: translate(10px, 36px);
     }
 
     .subEmail {
@@ -560,6 +602,10 @@
     /* subcribe end */
 
     /* footer start */
+    footer {
+        margin-top: 30px;
+    }
+
     .footerLink {
         margin-top: 30px;
     }
@@ -710,6 +756,10 @@
 
     /* destination end */
     /* booking start */
+    .bookingHead {
+        text-align: center;
+    }
+
     .bookingHead h3 {
         margin-bottom: 0px;
         font-size: 35px;
@@ -742,8 +792,23 @@
 
     }
 
+    .testImg {
+        transform: translate(60px, 11px);
+    }
+
+    .testText {
+        text-align: center;
+    }
+
+    .testText h5 {
+        font-size: 16px;
+        line-height: 10px;
+
+    }
+
     .testText h3 {
         font-size: 35px;
+        padding: 0;
     }
 
     .sCard {
@@ -756,7 +821,7 @@
 
 
     .slick-dots {
-        transform: translate(0, 0);
+        transform: translate(0, 20px);
     }
 
     .slick-dots li button:before {
@@ -775,11 +840,7 @@
     /* parter start */
     .partner {}
 
-    .partnerImg {
-        width: 120px;
-        height: 46px;
-        padding: 0 5px;
-    }
+    .partnerImg {}
 
     /* parter end */
 
@@ -805,6 +866,10 @@
 
     /* subcribe end */
     /* footer start */
+    footer {
+        margin-top: 25px;
+    }
+
     .footerLink {
         margin-top: 30px;
     }
@@ -976,10 +1041,7 @@
     /* parter start */
     .partner {}
 
-    .partnerImg {
-        width: 168px;
-        height: 46px;
-    }
+    .partnerImg {}
 
     /* parter end */
 
@@ -988,11 +1050,24 @@
         padding: 45px;
     }
 
+    .subBg1 {
+        transform: translate(0px, -56px);
+
+    }
+
     .subH2 {
         font-size: 28px;
         padding: 0px 0px 40px 0;
 
     }
+
+    /* footer start */
+    .footer {
+        margin-top: 15px;
+    }
+
+    /* footer end */
+
 
 
 }

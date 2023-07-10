@@ -23,28 +23,29 @@ $(document).ready(function () {
   });
 
   $("#owl-carousel").owlCarousel({
-    loop: true,
+    // loop: false,
     margin: 30,
     items: 5,
-    autoplay: true,
+    // autoplay: true,
     nav: false,
     dots: false,
     responsiveClass: true,
     responsive: {
       0: {
-        items: 2,
+        margin: 5,
+        items: 3,
         nav: false,
-        dots:false,
-    
+        dots: false,
       },
       600: {
-        items: 3,
+        margin: 10,
+        items: 4,
         nav: false,
       },
       1000: {
         items: 5,
         nav: false,
-        loop: true,
+        // loop: true,
       },
     },
   });

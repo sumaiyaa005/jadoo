@@ -430,7 +430,7 @@ header {
 .desShape img {
     position: absolute;
     z-index: 1;
-    margin: -292px 0 0 336px;
+    margin: -294px 0 0 372px;
 }
 
 /* Destination end */
@@ -799,9 +799,21 @@ header {
 /* testimonial end */
 
 /* partnerstart */
-.partner {
+.partner {}
+
+.partnerImg {
+    padding: 10px;
     /* background-color: #8A79DF; */
 }
+
+.partnerImg img {}
+
+.partnerImg:hover {
+    background: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
 
 /* partnerend */
 
@@ -900,7 +912,9 @@ header {
 /* subscribe end*/
 
 /* footer start */
-footer {}
+footer {
+    margin-top: 20px;
+}
 
 
 .footP {
