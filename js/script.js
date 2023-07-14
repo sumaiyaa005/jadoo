@@ -5,7 +5,7 @@ $(document).ready(function () {
     arrows: true,
     fade: true,
     asNavFor: ".slider-nav",
-    // autoplay: true,
+    autoplay: true,
     nextArrow: '<button class="fa-solid fa-angle-right"></button>',
     prevArrow: '<button class="fa-solid fa-angle-left"></button>',
   });
@@ -19,14 +19,14 @@ $(document).ready(function () {
     slidesToShow: 1,
     adaptiveHeight: true,
     arrows: false,
-    // autoplay: true,
+    autoplay: true,
   });
 
   $("#owl-carousel").owlCarousel({
-    // loop: false,
+    loop: true,
     margin: 30,
     items: 5,
-    // autoplay: true,
+    autoplay: true,
     nav: false,
     dots: false,
     responsiveClass: true,
